@@ -1,12 +1,6 @@
-![Python Version](https://img.shields.io/badge/python-3.x-blue)
-![Build Status](https://github.com/USERNAME/REPOSITORY/actions/workflows/main.yml/badge.svg)
+![Python Version](https://img.shields.io/badge/python-3.x-blue) 
 ![Coverage Status](https://coveralls.io/repos/github/USERNAME/REPOSITORY/badge.svg?branch=main)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Last Commit](https://img.shields.io/github/last-commit/USERNAME/REPOSITORY)
-![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPOSITORY)
-![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPOSITORY)
-![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPOSITORY)
-
 
 # Sistema de Gerenciamento de Usuários
 
