@@ -70,6 +70,10 @@ export MINHA_OUTRA_SECRETA="minha outra secreta"
 ## Executando o Projeto
 
 Após configurar o ambiente virtual e instalar as dependências, você pode executar o projeto conforme necessário.
+No terminal, digitar o comando:
+```
+python main.py
+```
 
 ## Estrutura do Projeto
 
