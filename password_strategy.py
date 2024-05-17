@@ -37,7 +37,7 @@ class ShortPasswordStrategy(PasswordStrategy):
         return "".join([hash1, hash2, hash3])
 
 
-class GeneratePassword:
+class GeneratedPassword:
     def __init__(self,strategy):
         self.strategy = strategy
     
