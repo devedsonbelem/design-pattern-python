@@ -81,15 +81,15 @@ python main.py
 
 ## Estrutura do Projeto
 
-* users.py: Define a classe abstrata Users e suas subclasses AdminUser, RegularUser e GuestUser.
-* users_builder.py: Implementa o padrão Builder para a criação de usuários.
-* password_strategy.py: Define diferentes estratégias de criptografia de senhas.
-* user_facade.py: Facade para simplificar a criação de usuários.
+* **users.py:** Define a classe abstrata Users e suas subclasses AdminUser, RegularUser e GuestUser.
+* **users_builder.py:** Implementa o padrão Builder para a criação de usuários.
+* **password_strategy.py:** Define diferentes estratégias de criptografia de senhas.
+* **user_facade.py:** Facade para simplificar a criação de usuários.
 
 ### Princípios SOLID Aplicados
 
-* Single Responsibility Principle (SRP): Cada classe tem uma única responsabilidade. Por exemplo, a classe Users gerencia dados do usuário, enquanto a classe PasswordStrategy lida com a criptografia.
-* Open/Closed Principle (OCP): As classes estão abertas para extensão, mas fechadas para modificação. Por exemplo, novas estratégias de criptografia podem ser adicionadas sem alterar as classes existentes.
-* Liskov Substitution Principle (LSP): As subclasses (AdminUser, RegularUser, GuestUser) podem ser usadas como substitutas da classe base Users sem alterar o comportamento esperado do programa.
-* Interface Segregation Principle (ISP): As interfaces são específicas para cada propósito, como a PasswordStrategy, que define métodos necessários para qualquer estratégia de criptografia.
-* Dependency Inversion Principle (DIP): O código depende de abstrações (interfaces) em vez de implementações concretas. A classe GeneratePassword usa a interface PasswordStrategy para aplicar diferentes estratégias de criptografia.
+* **Single Responsibility Principle (SRP):** Cada classe tem uma única responsabilidade. Por exemplo, a classe Users gerencia dados do usuário, enquanto a classe PasswordStrategy lida com a criptografia.
+* **Open/Closed Principle (OCP):** As classes estão abertas para extensão, mas fechadas para modificação. Por exemplo, novas estratégias de criptografia podem ser adicionadas sem alterar as classes existentes.
+* **Liskov Substitution Principle (LSP):** As subclasses (AdminUser, RegularUser, GuestUser) podem ser usadas como substitutas da classe base Users sem alterar o comportamento esperado do programa.
+* **Interface Segregation Principle (ISP):** As interfaces são específicas para cada propósito, como a PasswordStrategy, que define métodos necessários para qualquer estratégia de criptografia.
+* **Dependency Inversion Principle (DIP):** O código depende de abstrações (interfaces) em vez de implementações concretas. A classe GeneratePassword usa a interface PasswordStrategy para aplicar diferentes estratégias de criptografia.
