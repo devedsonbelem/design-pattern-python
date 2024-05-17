@@ -1,3 +1,6 @@
+![Python Version](https://img.shields.io/badge/python-3.x-blue)
+
+
 # Sistema de Gerenciamento de Usuários
 
 Este projeto é um sistema de gerenciamento de usuários desenvolvido em Python, que utiliza padrões de projeto e princípios SOLID para garantir flexibilidade, manutenção e segurança na criação e gestão de diferentes tipos de usuários.
